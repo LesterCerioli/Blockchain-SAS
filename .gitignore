@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+.env/
+.envrc
+*.venv
+Pipfile
+Pipfile.lock
+
+# Python package files
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs and database
+*.log
+*.sqlite3
+logs/
+debug.log
+
+# VS Code settings
+.vscode/
+.history/
+
+# macOS system files
+.DS_Store
+*.swp
+*.swo
+
+# FastAPI and Uvicorn logs
+instance/
+*.db
+*.sqlite
+
+# Test coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pycoverage
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes
+*.kube/
+.kubeconfig
+
+# PyCharm settings
+.idea/
+*.iml
+
+# Deployment
+build/
+dist/
+*.bak
